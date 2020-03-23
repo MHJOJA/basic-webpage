@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> basic webpage</title>
+    <style>
+        body {
+            background-color: lavender;
+            font-family: 'Times New Roman', Times, serif;
+            color: grey;
+            padding: 1px
+        
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+        table, th, td {
+          border: 1px solid black;
+        }
+
+        .History {
+            display: flex;
+            float: right;
+            background-color: ivory;
+            padding: opx;
+            margin: 0px;
+        }
+
+        .city {
+            display: flex;
+        }
+        
+        .list {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .list div {
+            width: 30%;
+            display: flex;
+            margin: 20px;
+        }
+     
+        img {
+            height: 200px;
+            padding: 0.5em;
+        }
+        
+        p {
+        float:right;
+        }
+
+        .footer{
+            background-color: honeydew;
+            font-style: italic;
+        }
+
+        /* MEDIA QUERIES*/
+        @media screen and (max-width: 800px) {
+             .city{
+                 flex-direction: column;
+             }
+                    
+            .list {
+                flex-direction: column;
+            }
+
+            .list > div {
+                width: 100%;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Momelezi <br>Joja</h1>
+    <img src="me.jpg" alt=""></header>
+
+    <h2>Qatar</h2><br>
+    <div class="city">
+       
+        <img src="Qatar.jpg" alt="">
+        <p>Qatar State has experienced significant economic growth. Continuing economic growth has helped to make Qatar one of the world’s richest nations. Revenue generated from oil and natural gas reserves makes Qatar residents the second-highest earners in the world. There are numerous banks in the state including commercial banks, foreign banks, and the Qatar Central Bank.Qataris eat their main meal of the day at lunchtime. Karak tea is served after meals; the rich milky tea is laced with Cardamom. The Friday midday meal, after prayers, is usually a time for the whole family to get together.
+            The “Thoub” is the traditional costume worn by Qatari men. The Thoub is a long white shirt that is worn over boxer style shorts or long white cotton trousers. As a matter of pride, all Thoubs must be immaculately laundered.Qatari women wear a long black cloak known as an Abaya. Traditional Qatari females wear a djelabia or a dress under the cloak.</p>
+        </div><br>
+        <div class="tabl">
+            <table>
+                <tr><th>English Phraise</th>
+                <th>French</th></tr>
+                <tr><td>Please feel at home</td>
+                <td>veuillez vous sentir chez vous
+                </td></tr>
+                <tr><td>Good day everyone</td>
+                <td>bonne journée tout le monde</td></tr>
+                <tr><td>Welcome home</td>
+                <td>Bienvenue à la maison</td></tr>
+            </table>
+        </div>
+        <h2>Historical Places</h2>
+    
+    <section class="list">
+        <div>
+            <p>Iziko Museums aspires to follow certain values that will ensure the protection of South Africa's heritage for the benefit of future generations.The South African Museum houses more than one and a half million specimens of scientific importance.The name Iziko, an isiXhosa word, meaning 'hearth', is intended to embody the spirit of a transformed institution..</p>
+            <img src="IZIKO.jpg" alt="">
+        </div>
+        <div>
+            <p>National Assembly of South Africa. The National Assembly is the lower house of the Parliament of South Africa, located in Cape Town, Western Cape Province.The Houses of Parliament of South Africa are situated in Cape Town.Leader of the Lok Sabha, the Lower House of the Indian Parliament, is the Prime Minister by default if they are a member of the Lok Sabha.</p>
+            <img src="PARL.jpg" alt="">
+        </div>
+        <div>
+            <p>IIt was named the sixth district of Cape Town in 1867.It was the city's sixth municipal district.It was originally a mixed community of freed slaves, merchants, artisans, labourers and immigrants.</p>
+            <img src="D6.jpg" alt="">
+        </div>
+    </section>
+    <br>
+
+<div class="footer">
+    smallzworld.inc
+</div>
+    
+</body>
+</html>

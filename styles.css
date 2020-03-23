@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+    height: 200px;
+}
+
+
+
+@media screen and (max-width:400px){
+  body {
+        width: 100%
+        max-width: 45px
+        background-color: pink;
+    
+    }
+    
+}
